@@ -1,5 +1,5 @@
 class Cat
-  attr_reader :name
-  attr_writer :name
+  attr_accessor :name
+  attr_reciever :name
 puts "meow!"
 end
