@@ -1,6 +1,5 @@
 class Cat
-
-def name(name=nil)
-@name = name
+  attr_reader :name
+  attr_writer :name
 puts "meow!"
 end
