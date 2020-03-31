@@ -1,5 +1,5 @@
 class Cat
   attr_accessor :name
-  attr_reciever :name
+  attr_writer :name
 puts "meow!"
 end
