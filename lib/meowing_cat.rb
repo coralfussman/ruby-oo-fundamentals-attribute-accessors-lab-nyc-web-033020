@@ -1,5 +1,10 @@
 class Cat
   attr_accessor :name
-  attr_writer :name
-puts "meow!"
+  def initialize(name=nil)
+    @name = name
+  end
+
+  def meow
+    puts "meow!"
+  end
 end
